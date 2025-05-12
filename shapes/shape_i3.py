@@ -1,11 +1,11 @@
 from shapes.base import AbstractShape
 
-class ShapeD(AbstractShape):
+class ShapeI3(AbstractShape):
     def get_matrix(self):
-        return [[1, 1], [0, 1]]
+        return [[1, 1, 1]]
 
     def get_image(self):
-        return "block-d.svg"
+        return "block-c.svg"
 
     def shape_type(self):
-        return "D"
+        return "C"

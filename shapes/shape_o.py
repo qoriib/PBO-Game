@@ -1,8 +1,11 @@
 from shapes.base import AbstractShape
 
-class ShapeA(AbstractShape):
+class ShapeO(AbstractShape):
     def get_matrix(self):
-        return [[1]]
+        return [
+            [1, 1],
+            [1, 1]
+        ]
 
     def get_image(self):
         return "block-a.svg"

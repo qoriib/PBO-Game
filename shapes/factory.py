@@ -2,18 +2,23 @@ import random
 from config.options import GameOption
 
 # Mengimpor semua class bentuk (shape) yang merupakan turunan dari AbstractShape
-from shapes.shape_a import ShapeA
-from shapes.shape_b import ShapeB
-from shapes.shape_c import ShapeC
-from shapes.shape_d import ShapeD
-from shapes.shape_e import ShapeE
-from shapes.shape_f import ShapeF
-from shapes.shape_g import ShapeG
+from shapes.shape_o import ShapeO
+from shapes.shape_t1 import ShapeT1
+from shapes.shape_t2 import ShapeT2
+from shapes.shape_i1 import ShapeI1
+from shapes.shape_i2 import ShapeI2
+from shapes.shape_i3 import ShapeI3
+from shapes.shape_l1 import ShapeL1
+from shapes.shape_l2 import ShapeL2
+from shapes.shape_l3 import ShapeL3
+from shapes.shape_u import ShapeU
+from shapes.shape_s1 import ShapeS1
+from shapes.shape_s2 import ShapeS2
 
 # Kelas pembuat shape (factory) untuk menghasilkan shape secara acak
 class ShapeFactory:
     # Daftar semua class shape yang tersedia
-    SHAPE_CLASSES = [ShapeA, ShapeB, ShapeC, ShapeD, ShapeE, ShapeF, ShapeG]
+    SHAPE_CLASSES = [ShapeO, ShapeT1, ShapeT2, ShapeI1, ShapeI2, ShapeI3, ShapeL1, ShapeL2, ShapeL3, ShapeU, ShapeS1, ShapeS2]
 
     @staticmethod
     def generate():

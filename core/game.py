@@ -15,11 +15,11 @@ class Game:
 
         # Membuat window game dengan ukuran sesuai konfigurasi
         self.screen = pygame.display.set_mode((GameOption.SCREEN_WIDTH, GameOption.SCREEN_HEIGHT))
-        pygame.display.set_caption("ZenBlock")
+        pygame.display.set_caption("ZENSPACE")
         self.clock = pygame.time.Clock()
         
         # Memuat font untuk menampilkan teks
-        self.font = pygame.font.Font(os.path.join(GameOption.FONT_PATH, "Quicksand-Bold.ttf"), 28)
+        self.font = pygame.font.Font(os.path.join(GameOption.FONT_PATH, "TT Bluescreens Trial Bold.ttf"), 38)
         
         # Mulai ulang game (setup ulang papan, shapes, dll)
         self.restart()
@@ -78,7 +78,7 @@ class Game:
         overlay.fill((0, 0, 0, 180))
         self.screen.blit(overlay, (0, 0))
 
-        text = self.font.render("Game Over! Press R to Restart", True, (255, 255, 255))
+        text = self.font.render("Game Over! Press R to Restart", True, GameOption.TEXT_COLOR)
         rect = text.get_rect(center=(GameOption.SCREEN_WIDTH // 2, GameOption.SCREEN_HEIGHT // 2))
         self.screen.blit(text, rect)
 
