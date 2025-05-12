@@ -8,7 +8,7 @@ class ShapeU(AbstractShape):
         ]
 
     def get_image(self):
-        return "block-e.svg"
+        return "block-purple.png"
 
     def shape_type(self):
-        return "E"
+        return "U"

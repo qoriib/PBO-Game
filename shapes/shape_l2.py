@@ -8,7 +8,7 @@ class ShapeL2(AbstractShape):
         ]
 
     def get_image(self):
-        return "block-d.svg"
+        return "block-red.png"
 
     def shape_type(self):
-        return "D"
+        return "L2"

@@ -8,7 +8,7 @@ class ShapeT1(AbstractShape):
         ]
 
     def get_image(self):
-        return "block-b.svg"
+        return "block-yellow.png"
 
     def shape_type(self):
-        return "B"
+        return "T1"

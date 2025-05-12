@@ -8,7 +8,7 @@ class ShapeO(AbstractShape):
         ]
 
     def get_image(self):
-        return "block-a.svg"
+        return "block-yellow.png"
 
     def shape_type(self):
-        return "A"
+        return "O"

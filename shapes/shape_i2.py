@@ -7,7 +7,7 @@ class ShapeI2(AbstractShape):
         ]
 
     def get_image(self):
-        return "block-c.svg"
+        return "block-blue.png"
 
     def shape_type(self):
-        return "C"
+        return "I2"
