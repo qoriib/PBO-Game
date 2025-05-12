@@ -1,0 +1,18 @@
+class GameOption:
+    CELL_SIZE = 50
+    GRID_SIZE = 9
+    SCREEN_WIDTH = 600
+    SCREEN_HEIGHT = 850
+    BOARD_OFFSET_Y = 100
+    BOARD_OFFSET_X = (SCREEN_WIDTH - GRID_SIZE * CELL_SIZE) // 2
+
+    BACKGROUND_COLOR = (235, 245, 238)
+    EMPTY_COLOR = (215, 230, 220)
+    GRID_LINE_COLOR = (160, 190, 160)
+    BIG_GRID_COLOR = (50, 130, 100)
+    HIGHLIGHT_COLOR = (195, 250, 200)
+    TEXT_COLOR = (40, 70, 60)
+
+    BLOCK_IMAGE_PATH = "assets/blocks/"
+    FONT_PATH = "assets/fonts/"
+    MUSIC_PATH = "assets/musics/"

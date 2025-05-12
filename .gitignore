@@ -1,0 +1,28 @@
+# Python cache dan file temporer
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Virtual environment
+.env/
+venv/
+ENV/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PyInstaller build folders
+build/
+dist/
+*.spec
+
+# VSCode settings
+.vscode/
