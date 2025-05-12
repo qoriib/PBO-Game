@@ -78,7 +78,7 @@ class Game:
         overlay.fill((0, 0, 0, 180))
         self.screen.blit(overlay, (0, 0))
 
-        text = self.font.render("Game Over! Press R to Restart", True, GameOption.TEXT_COLOR)
+        text = self.font.render("Game Over! Press R to Restart", True, (255, 255, 255))
         rect = text.get_rect(center=(GameOption.SCREEN_WIDTH // 2, GameOption.SCREEN_HEIGHT // 2))
         self.screen.blit(text, rect)
 
