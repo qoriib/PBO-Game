@@ -15,7 +15,7 @@ class Game:
 
         # Membuat window game dengan ukuran sesuai konfigurasi
         self.screen = pygame.display.set_mode((GameOption.SCREEN_WIDTH, GameOption.SCREEN_HEIGHT))
-        pygame.display.set_caption("Zen Block")
+        pygame.display.set_caption("ZenBlock")
         self.clock = pygame.time.Clock()
         
         # Memuat font untuk menampilkan teks
